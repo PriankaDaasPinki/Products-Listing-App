@@ -19,8 +19,8 @@ body {
   background-color: #4c4c4c;
 }
 
-p{
-  color:chocolate;
+p {
+  color: chocolate;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -80,7 +80,7 @@ img {
 }
 .product__title {
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .product__price {
   color: orange;
