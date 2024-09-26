@@ -7,11 +7,11 @@ const Product = ({ item }) => {
     <article className="product">
       <img src={item.image} alt="" />
       <div className="product__details">
-        <h4 className="product__title">{item.title}</h4>
+        <h3 className="product__title">{item.title}</h3>
         <p>Price: $ {item.price}</p>
         <p>Rating: {item.rating.rate}/5</p>
         <p className="product__desc">Description: {item.description}</p>
-        <button className="product_btn btn">Add to cart</button>
+        <button className="btn">Add to cart</button>
       </div>
     </article>
   );
