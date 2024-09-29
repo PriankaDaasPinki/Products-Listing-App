@@ -1,12 +1,16 @@
 import React from "react";
 import Products from "./components/Products";
 import products from "./Data";
+import ConditionalRendaring from "./components/Conditional Rendaring/ConditionalRendaring";
+import EventHandelerClassComponent from "./components/EventHandelerClassComponent/EventHandelerClassComponent";
 
 import { FiShoppingCart } from "react-icons/fi";
 
 const App = () => {
   return (
     <div>
+      <ConditionalRendaring />
+      <EventHandelerClassComponent />
       <div className="heading row">
         <div className="col-md-10 title">
           <h1>BD Store</h1>
