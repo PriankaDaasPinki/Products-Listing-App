@@ -21,8 +21,12 @@ body {
 
 p {
   color: chocolate;
-  font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.icon{
+  font-size: 3rem;
 }
 
 img {
@@ -38,11 +42,33 @@ img {
   width: 5rem;
   background-color: chocolate;
   color: white;
+  margin: 1rem;
+}
+
+.sateButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn:hover {
   background-color: orange;
   color: black;
+}
+
+.btn:disabled{
+  background-color: gray;
+}
+
+.cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cartItemCount{
+  margin-bottom: -2rem;
 }
 
 .title {
