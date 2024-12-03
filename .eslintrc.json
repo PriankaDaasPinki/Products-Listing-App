@@ -16,6 +16,6 @@
   },
   "plugins": ["react"],
   "rules": {
-    "react/react-in-jsx-scope": "on"
+    "react/react-in-jsx-scope": "warn"
   }  
 }
