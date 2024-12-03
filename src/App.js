@@ -1,11 +1,11 @@
-import React from "react";
-import Products from "./components/Products";
-import products from "./Data";
-import ConditionalRendaring from "./components/Conditional Rendaring/ConditionalRendaring";
-import EventHandelerClassComponent from "./components/EventHandelerClassComponent/EventHandelerClassComponent";
-import event_binding from "./components/Event_Binding/event_binding";
+import React from 'react';
+import Products from './components/Products';
+import products from './Data';
+import ConditionalRendaring from './components/Conditional Rendaring/ConditionalRendaring';
+import EventHandelerClassComponent from './components/EventHandelerClassComponent/EventHandelerClassComponent';
+// import event_binding from './components/Event_Binding/event_binding';
 
-import { FiShoppingCart } from "react-icons/fi";
+import { FiShoppingCart } from 'react-icons/fi';
 
 const App = () => {
   return (

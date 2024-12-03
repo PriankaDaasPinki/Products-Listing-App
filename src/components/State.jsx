@@ -1,3 +1,4 @@
+// eslint.config.js
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 

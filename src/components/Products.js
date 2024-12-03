@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import Product from "./Product";
+import React from 'react';
+import Product from './Product';
 
 export default function Products(props) {
   const { products } = props;
